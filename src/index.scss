@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    color: rgba(42, 97, 113, 0.8)
+}
+
+.header_bg{
+    background-image: url('./img/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+   aspect-ratio: 16/8;
+}
