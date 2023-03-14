@@ -13,7 +13,7 @@ export const Navbar: FC = () => {
                 <Link to='/delivery'>delivery</Link>
             </li>
             <li className='ml-2.5'>
-                <p>contacts</p>
+                <Link to='/'>contacts</Link>
             </li>
         </ul>
         <Link to='/'>CONSULT BAR</Link>

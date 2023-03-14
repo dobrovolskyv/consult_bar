@@ -13,7 +13,6 @@ const Home: FC= ()=> {
       <About/>
       <Services/>
       <Advantages/>
-      <Contacts/>
     </div>
   )
 }
