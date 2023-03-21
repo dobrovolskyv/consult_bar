@@ -5,8 +5,8 @@ const KeyPage: FC = () => {
   return (
     <div>
       <Navbar />
+        <h2 className='text-4xl text-center py-20 bg-sky-900 text-white'>БАР ПОД КЛЮЧ</h2>
       <div className="container">
-        <h2 className='text-center text-4xl my-20'>БАР ПОД КЛЮЧ</h2>
         <p className='text-center text-2xl my-10'>Открытие заведения с баром очень трудоемкий процесс от которого зависит в дальнейший успех заведения в целом
           Доверьте свой бар профессионалам</p>
         <div className="flex justify-between mt-10">
@@ -32,7 +32,7 @@ const KeyPage: FC = () => {
         </div>
         <div className="flex justify-between mt-10">
           <p className='w-2/5'>Стоимость</p>
-          <p className='w-4/5'>От 270 000 рублей</p>
+          <p className='w-4/5'>От 10 000 лари</p>
         </div>
       </div>
     </div>

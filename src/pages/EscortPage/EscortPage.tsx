@@ -5,8 +5,8 @@ const EscortPage: FC = () => {
   return (
     <div>
       <Navbar />
+        <h3 className='text-4xl text-center py-20 bg-sky-900 text-white'>СОПРОВОЖДЕНИЕ БАРА</h3>
       <div className="container">
-        <h3 className='my-20 text-4xl text-center'>СОПРОВОЖДЕНИЕ БАРА</h3>
         <p className='my-5'>Специалисты нашей компании будут сопровождать Ваш бар после запуска или уже действующий</p>
         <div className="flex justify-between mt-10">
           <p className='w-2/5'>Что входит в услугу</p>
@@ -31,7 +31,7 @@ const EscortPage: FC = () => {
         </div>
         <div className="flex justify-between mt-10">
           <p className='w-2/5'>Стоимость</p>
-          <p className='w-4/5'>От 25 000 до 80 000 рублей в месяц + % с продаж бара
+          <p className='w-4/5'>От 600 до 3000 рублей в месяц + % с продаж бара
             Мы максимально заинтересованы постоянно работать над увеличением продаж Вашего бара</p>
         </div>
       </div>

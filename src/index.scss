@@ -10,7 +10,7 @@
     padding: 0;
 }
 a:hover{
-    color: rgba(42, 97, 113, 0.8)
+    color: rgba(180, 184, 185, 0.8)
 }
 
 .header_bg{
@@ -20,4 +20,8 @@ a:hover{
     background-position: center center;
     width: 100%;
    aspect-ratio: 16/8;
+}
+
+textarea{
+    resize: none;
 }

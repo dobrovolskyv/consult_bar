@@ -5,8 +5,8 @@ const DescriptionPage: FC = () => {
   return (
     <div>
       <Navbar />
+        <h2 className='text-4xl text-center py-20 bg-sky-900 text-white'>ПОДПИСКА НА УСЛУГИ</h2>
       <div className="container">
-        <h2 className='text-4xl text-center my-32'>ПОДПИСКА НА УСЛУГИ</h2>
         <p className='text-2xl text-center'>Предоставляем готовые решения для баров по подписке</p>
         <div className="">
           <h3 className='text-4xl text-center'>Вам подойдет подписка, если Вы</h3>
@@ -63,8 +63,8 @@ const DescriptionPage: FC = () => {
         <div className="flex mt-20">
           <div className="">
             <h4>BASIC</h4>
-            <p>12 месяцев 8 000 руб./мес</p>
-            <p>10 000 руб./мес.</p>
+            <p>12 месяцев 250 лари</p>
+            <p>300 лари</p>
             <ul>
               <li>
                 <p>Максимальные скидки от поставщиков-партнёров Consult Bar.</p>
@@ -111,8 +111,8 @@ const DescriptionPage: FC = () => {
           </div>
           <div className="">
             <h4>PREMIUM</h4>
-            <p>12 месяцев 23 000 руб./мес</p>
-            <p>25 000 руб./мес.</p>
+            <p>12 месяцев 850 руб./мес</p>
+            <p>1000 руб./мес.</p>
             <ul>
               <li>
                 <p>Максимальные скидки от поставщиков-партнёров Consult Bar.</p>
@@ -175,8 +175,8 @@ const DescriptionPage: FC = () => {
           </div>
           <div className="">
             <h4>STANDART</h4>
-            <p>12 месяцев 10 000 руб./мес</p>
-            <p>12 000 руб./мес.</p>
+            <p>12 месяцев 350 руб./мес</p>
+            <p>450 лари</p>
             <ul>
               <li>
                 <p>Максимальные скидки от поставщиков-партнёров Consult Bar.</p>
