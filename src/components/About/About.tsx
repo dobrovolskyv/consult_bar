@@ -1,12 +1,38 @@
-import React, { FC } from 'react'
+import React, {FC} from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectFade, Autoplay} from 'swiper'
+import 'swiper/css';
+import "swiper/css/effect-fade";
 
-const About: FC = () => {
-    return (
-        <div className='container'>
-            <h2 className='text-4xl text-center my-10'>Про компанию</h2>
-            <div className='flex justify-between'>
-            <img className='w-2/5' src="https://imgs.search.brave.com/CCwKdX6Y3ImDTGInadnvj2ifoTYZGhyt0zXL9fn-zLc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU2LzRi/LzYxLzU2NGI2MWNi/MWRkOTQ2MmQ5NGVm/ZDZkYTdkMmM4NmY4/LmpwZw" alt="" />
-            <div className="about__decsr ml-10">
+
+const About:FC = () => {
+  return (
+    <div className="about__inner container flex justify-between mt-40">
+      <div className="about__left">
+         <Swiper
+    spaceBetween={30}
+    centeredSlides={true}
+    autoplay={{
+      delay: 2500,
+      disableOnInteraction: false,
+    }}
+    
+    effect={"fade"}
+    modules={[Autoplay, EffectFade]}
+    loop={true}
+    className="  w-1/5"
+  >
+    <SwiperSlide><img className='w-full' src="/image/cocktail_1.jpg" alt="" /></SwiperSlide>
+    <SwiperSlide><img className='w-full' src="/image/cocktail_2.jpg" alt="" /></SwiperSlide>
+    <SwiperSlide><img className='w-full' src="/image/cocktail_3.jpg" alt="" /></SwiperSlide>
+    <SwiperSlide><img className='w-full' src="/image/cocktail_4.jpg" alt="" /></SwiperSlide>
+
+
+  
+  </Swiper>
+      </div>
+      <div className="about__right">
+      <div className="about__decsr ml-10">
                 <p className='text-lg'>Consult Bar - это барная консалтинговая компания, объединяющая сильнейших мастеров барного и ресторанного бизнеса.
                     Основатели компании Добровльский Влад и Занекидзе Якоб, около 12 лет в барной индустрии, 3 года руководили барами в Санкт-Петербурге и Батуми.
                     За нашими плечами открытие и перезагрузка 51 бара под ключ.
@@ -14,10 +40,10 @@ const About: FC = () => {
                     Оказываем услуги по постановке баров как с полного нуля, так и перезагружаем существующие.</p>
     
             </div>
-            </div>
-            
-        </div>
-    )
+      </div>
+    </div>
+   
+  )
 }
 
 export default About
