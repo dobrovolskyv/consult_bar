@@ -6,7 +6,7 @@ const EscortPage: FC = () => {
     <div>
       <Navbar />
         <h3 className='text-4xl text-center py-20 bg-sky-900 text-white'>СОПРОВОЖДЕНИЕ БАРА</h3>
-      <div className="container">
+      <div className="container py-10">
         <p className='my-5'>Специалисты нашей компании будут сопровождать Ваш бар после запуска или уже действующий</p>
         <div className="flex justify-between mt-10">
           <p className='w-2/5'>Что входит в услугу</p>

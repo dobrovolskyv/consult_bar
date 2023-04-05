@@ -6,7 +6,7 @@ const KeyPage: FC = () => {
     <div>
       <Navbar />
         <h2 className='text-4xl text-center py-20 bg-sky-900 text-white'>БАР ПОД КЛЮЧ</h2>
-      <div className="container">
+      <div className="container py-10">
         <p className='text-center text-2xl my-10'>Открытие заведения с баром очень трудоемкий процесс от которого зависит в дальнейший успех заведения в целом
           Доверьте свой бар профессионалам</p>
         <div className="flex justify-between mt-10">

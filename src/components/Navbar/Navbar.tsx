@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 export const Navbar: FC = () => {
   return (
-    <div className='bg-slate-800 h-12 px-2'>
+    <div className='bg-slate-900 h-12 px-2'>
         <div className='flex justify-between pt-2 text-white text-lg'>
         <ul className='flex justify-between w-42'>
             <li className=''>
@@ -17,9 +17,10 @@ export const Navbar: FC = () => {
             </li>
         </ul>
         <Link to='/' className='w-1/5'>CONSULT BAR</Link>
-        <div className='flex w-40 justify-between'>
-            <p>tel</p>
-            <p>socials</p>
+        <div className='flex justify-between hover:bg-white '>
+
+            <a className='border py-1 px-3 rounded hover:text-black'  href="tel:+995574079767">+995574079767</a>
+            
         </div>
         </div>
     </div>

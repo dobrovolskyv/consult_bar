@@ -5,26 +5,26 @@ const Advantages:FC = () => {
     <div className='container my-40'>
         <div className="we">
             <h3 className="text-center text-4xl">Почему мы?</h3>
-            <div className="grid grid-cols-2 gap-8 mt-10">
-                <div className="flex align-middle ">
-                    <p>+</p>
+            <div className="grid grid-cols-2 gap-8 mt-10 text-xl">
+                <div className="flex items-center ">
+                    <p className='text-2xl mr-4'>+</p>
                     <p>Мы поддерживаем крепкие отношения с ведущими производителями и поставщиками в барной индустрии</p>
                 </div>
-                <div className="flex align-middle w-4/5">
-                    <p>+</p>
+                <div className="flex items-center w-4/5">
+                    <p className='text-2xl mr-4'>+</p>
                     <p>Работаем в барной индустрии с 2009 года</p>
                 </div>
-                <div className="flex align-middle w-4/5">
-                    <p>+</p>
+                <div className="flex items-center w-4/5">
+                    <p className='text-2xl mr-4'>+</p>
                     <p>5 успешно реализованный проект под ключ</p>
                 </div>
-                <div className="flex align-middle w-4/5">
-                    <p>+</p>
+                <div className="flex items-center w-4/5">
+                    <p className='text-2xl mr-4'>+</p>
                     <p>Мы открывали заведения во всех сегментах в разных регионах России и Грузии</p>
                 </div>
             </div>
         </div>
-        <div className="mt-20">
+        {/* <div className="mt-20">
             <h3 className='text-center text-4xl'>Основная команда</h3>
             <div className="flex justify-batween gap-4 mt-10">
                 <div className="">
@@ -43,7 +43,7 @@ const Advantages:FC = () => {
                     <p>должность</p>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }
