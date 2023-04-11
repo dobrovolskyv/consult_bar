@@ -5,7 +5,7 @@ const Footer:FC = () => {
     <div className='bg-slate-800'>
       <div className="container py-10 text-white text-center">
       <p>consultbar</p>
-      <p>email:example@.mail.com</p>
+      <a href='meilto:malakbartender27@gmail.com'>malakbartender27@gmail.com</a>
     <p>copyright. All right reserved.</p>
       </div>
     

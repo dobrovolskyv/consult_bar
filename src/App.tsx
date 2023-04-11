@@ -17,7 +17,7 @@ import Contacts from "./components/Contacts/Contacts";
 
 const App: FC =()=> {
   return (
-    <div className="bg-stone-50 h-screen">
+    <div className="bg-stone-50">
       
     <Routes >
       <Route path='/' element={<Home/>}/>
